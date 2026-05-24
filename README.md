@@ -1,0 +1,3 @@
+Bijection between naturals and Kleene star of any alphabet logtime execution. Useful for experiments that explore random strings. For example, an RL-Algorithm that finds and categorizes strings by algorithmic compressibility could be very itneresting.
+
+Code allows one to specify an alphabet of arbitrary letters and order in a list LETTERS. Then a logtime bijective correspondence is mathematically implied by the dictionary ordering of all expressible strings in that alphabet by word length and then order of LETTERS. Arbitrary sized window function printWordWindow() allows one to print nearby words a fixed distance from the chosen word (we can define a metric using the total ordering (the next word is 1 unit away)).
